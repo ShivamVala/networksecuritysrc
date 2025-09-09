@@ -25,7 +25,6 @@ def get_requirements()->List[str]:
 
 
 setup(
-    
     name = "Network_Security_Project",
     version = "0.0.1",
     author =  "Shivam Vala",

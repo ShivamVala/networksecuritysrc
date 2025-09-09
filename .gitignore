@@ -1,2 +1,7 @@
 NetworkSecurityEnv
 .env
+artifacts
+__pycache__
+.ipynb_checkpoints
+logs
+*.pyc
