@@ -48,6 +48,8 @@ class DataIngestion:
         except Exception as e:
             raise NetworkSecurityException(e,sys)
         
+
+        
     def split_data_as_train_test(self,dataframe: pd.DataFrame):
         try:
             train_set, test_set = train_test_split(
@@ -91,7 +93,5 @@ class DataIngestion:
 
             return dataingestionartifact
 
-            pass
-        
         except Exception as e:
             raise NetworkSecurityException(e, sys)
